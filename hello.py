@@ -24,4 +24,4 @@ if __name__ == '__main__':
   # execute a method
   someMethod(args)
   # say goodbye
-  print('Goodnight, world!')
+  print('Goodnight, world.')
