@@ -9,6 +9,8 @@ import argparse
 def someMethod(args):
   print('Here are the arguments:')
   print(args)
+  print('I would like to make special note of the "carrot" argument:')
+  print(args.carrot)
 
 if __name__ == '__main__':
   # parse arguments
@@ -18,6 +20,8 @@ if __name__ == '__main__':
                       help='the apple parameter')
   parser.add_argument('-b', '--banana', type=str, default='cavendish',
                       help='the banana parameter')
+  parser.add_argument('-c', '--carrot', type=str, default='the orange kind',
+                      help='the carrot parameter')
   args = parser.parse_args()
   # say hello
   print('Hello, world')
