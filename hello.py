@@ -20,7 +20,7 @@ if __name__ == '__main__':
                       help='the apple parameter')
   parser.add_argument('-b', '--banana', type=str, default='cavendish',
                       help='the banana parameter')
-  parser.add_argument('-c', '--carrot', type=str, default='nantes',
+  parser.add_argument('-c', '--carrot', type=str, default='the orange kind',
                       help='the carrot parameter')
   args = parser.parse_args()
   # say hello
