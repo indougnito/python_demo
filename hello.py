@@ -20,8 +20,8 @@ if __name__ == '__main__':
                       help='the banana parameter')
   args = parser.parse_args()
   # say hello
-  print('Hello, world')
+  print('Hello, world!')
   # execute a method
   someMethod(args)
   # say goodbye
-  print('Goodnight, world')
+  print('Goodnight, world!')
